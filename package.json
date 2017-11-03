@@ -1,0 +1,14 @@
+{
+  "name": "iframe_window_opener",
+  "version": "1.0.0",
+  "description": "iframe window postback test",
+  "scripts": {
+    "start": "live-server ."
+  },
+  "keywords": [],
+  "author": "Jim Karg",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}

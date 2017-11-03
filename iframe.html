@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iFrame</title>
+    <script lang="javascript">
+        function receiveMessage(event) {
+            console.log('iframe received', event.data)
+        }
+
+        window.onload = function (e) {
+            window.addEventListener("message", receiveMessage, false);
+        }
+    </script>
+</head>
+
+<body>
+    iframe
+    <a href="./popup.html" target="_blank">popup</a>
+</body>
+
+</html>
